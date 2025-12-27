@@ -1,0 +1,285 @@
+{
+  "timestamp": "2025-09-06T15:50:04.387709",
+  "top_k": 30,
+  "recommended_features": [
+    "user_repeat_count",
+    "user_repeat_rate",
+    "loyalty_vs_merchant_rate",
+    "merchant_repeat_std",
+    "user_loyalty_score",
+    "loyalty_x_large_merchant",
+    "merchant_repeat_stability",
+    "avg_actions_per_time",
+    "item_diversity",
+    "click_to_buy_rate",
+    "merchant_repeat_rate",
+    "merchant_total_transactions",
+    "diversity_x_repeat_rate",
+    "activity_x_merchant_size",
+    "action_2_count",
+    "unique_cats",
+    "unique_brands",
+    "action_3_count",
+    "diversity_vs_size",
+    "active_time_points",
+    "user_merchant_relative_activity",
+    "action_0_count",
+    "merchant_repeat_count",
+    "unique_items",
+    "total_actions",
+    "age_range",
+    "merchant_repeat_high",
+    "user_relative_activity",
+    "is_male",
+    "age_5.0"
+  ],
+  "feature_type_distribution": {
+    "user_features": 5,
+    "merchant_features": 6,
+    "behavior_features": 7,
+    "cross_features": 5,
+    "other_features": 8
+  },
+  "comprehensive_scores": [
+    {
+      "feature": "user_repeat_count",
+      "综合得分": 0.8088021338450865,
+      "得分标准差": 0.29700692104102294,
+      "方法数量": 5,
+      "稳定性": 0.6327817291615727,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "user_repeat_rate",
+      "综合得分": 0.5196871226203139,
+      "得分标准差": 0.3239367075217585,
+      "方法数量": 5,
+      "稳定性": 0.3766697433478098,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "loyalty_vs_merchant_rate",
+      "综合得分": 0.2414401822890227,
+      "得分标准差": 0.34543414943415346,
+      "方法数量": 5,
+      "稳定性": -0.4307235281186206,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "merchant_repeat_std",
+      "综合得分": 0.2036067352847942,
+      "得分标准差": 0.39821724137905623,
+      "方法数量": 5,
+      "稳定性": -0.955815660135463,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "user_loyalty_score",
+      "综合得分": 0.18550908890983736,
+      "得分标准差": 0.36061902227409237,
+      "方法数量": 5,
+      "稳定性": -0.9439426089217837,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "loyalty_x_large_merchant",
+      "综合得分": 0.1692837667608845,
+      "得分标准差": 0.3107768570267582,
+      "方法数量": 5,
+      "稳定性": -0.8358337776458775,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "merchant_repeat_stability",
+      "综合得分": 0.1550097472160618,
+      "得分标准差": 0.22536111072793408,
+      "方法数量": 5,
+      "稳定性": -0.4538512240382686,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "avg_actions_per_time",
+      "综合得分": 0.10571854706802364,
+      "得分标准差": 0.20282092528712276,
+      "方法数量": 5,
+      "稳定性": -0.9184989853920285,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "item_diversity",
+      "综合得分": 0.10021680280221938,
+      "得分标准差": 0.19723097853643495,
+      "方法数量": 5,
+      "稳定性": -0.9680430129633621,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "click_to_buy_rate",
+      "综合得分": 0.09262692846930902,
+      "得分标准差": 0.18268129007686812,
+      "方法数量": 5,
+      "稳定性": -0.9722265770412293,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "merchant_repeat_rate",
+      "综合得分": 0.09184003261590626,
+      "得分标准差": 0.13890944150396364,
+      "方法数量": 5,
+      "稳定性": -0.5125151586662784,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "merchant_total_transactions",
+      "综合得分": 0.0751118290964449,
+      "得分标准差": 0.13231314252495624,
+      "方法数量": 5,
+      "稳定性": -0.7615486683870241,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "diversity_x_repeat_rate",
+      "综合得分": 0.07395179836682113,
+      "得分标准差": 0.13828146030256713,
+      "方法数量": 5,
+      "稳定性": -0.8698863767538594,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "activity_x_merchant_size",
+      "综合得分": 0.07325897409397465,
+      "得分标准差": 0.1253123490723955,
+      "方法数量": 5,
+      "稳定性": -0.7105392291140764,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "action_2_count",
+      "综合得分": 0.07050091038675457,
+      "得分标准差": 0.11656445461495055,
+      "方法数量": 5,
+      "稳定性": -0.6533751688524323,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "unique_cats",
+      "综合得分": 0.0633712008926879,
+      "得分标准差": 0.10929900125539617,
+      "方法数量": 5,
+      "稳定性": -0.7247424652798029,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "unique_brands",
+      "综合得分": 0.06149311447554534,
+      "得分标准差": 0.11321554330982946,
+      "方法数量": 5,
+      "稳定性": -0.84110927337813,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "action_3_count",
+      "综合得分": 0.06093887159127528,
+      "得分标准差": 0.111192318477819,
+      "方法数量": 5,
+      "稳定性": -0.8246533874732691,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "diversity_vs_size",
+      "综合得分": 0.060429343288928336,
+      "得分标准差": 0.11366152611796382,
+      "方法数量": 5,
+      "稳定性": -0.8808995751371753,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "active_time_points",
+      "综合得分": 0.05499670766275973,
+      "得分标准差": 0.08933307853161408,
+      "方法数量": 5,
+      "稳定性": -0.6243350252783362,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "user_merchant_relative_activity",
+      "综合得分": 0.05488528721580728,
+      "得分标准差": 0.10053756571321597,
+      "方法数量": 5,
+      "稳定性": -0.8317762521293788,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "action_0_count",
+      "综合得分": 0.05356511169861896,
+      "得分标准差": 0.08956660635009815,
+      "方法数量": 5,
+      "稳定性": -0.6721071516482509,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "merchant_repeat_count",
+      "综合得分": 0.04532065081790853,
+      "得分标准差": 0.07576934074646317,
+      "方法数量": 5,
+      "稳定性": -0.671850235577879,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "unique_items",
+      "综合得分": 0.04384138567871153,
+      "得分标准差": 0.06997692886212223,
+      "方法数量": 5,
+      "稳定性": -0.5961386205934085,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "total_actions",
+      "综合得分": 0.03717846318312489,
+      "得分标准差": 0.05703844706443998,
+      "方法数量": 5,
+      "稳定性": -0.534179796068855,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "age_range",
+      "综合得分": 0.032246615403352934,
+      "得分标准差": 0.06375876698560529,
+      "方法数量": 5,
+      "稳定性": -0.9772235376670193,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "merchant_repeat_high",
+      "综合得分": 0.01605042644665608,
+      "得分标准差": 0.03209561798424696,
+      "方法数量": 5,
+      "稳定性": -0.999673846107292,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "user_relative_activity",
+      "综合得分": 0.015185285671501781,
+      "得分标准差": 0.02226844335632679,
+      "方法数量": 5,
+      "稳定性": -0.4664487608631538,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "is_male",
+      "综合得分": 0.009289652937503338,
+      "得分标准差": 0.011110928981138262,
+      "方法数量": 5,
+      "稳定性": -0.19605426121811664,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    },
+    {
+      "feature": "age_5.0",
+      "综合得分": 0.00879236738984603,
+      "得分标准差": 0.011910226787987645,
+      "方法数量": 5,
+      "稳定性": -0.3546097723057289,
+      "方法列表": "correlation, model_lightgbm, model_xgboost, permutation, stability"
+    }
+  ]
+}
