@@ -1,4 +1,3 @@
-C:\ProgramData\anaconda3\python.exe C:\Users\浩浩\PycharmProjects\fugoyuce\utils\fenxi.py
 🚀 开始数据分析...
 ✅ 输出目录已创建: ../outputs
 === 开始加载数据 ===
