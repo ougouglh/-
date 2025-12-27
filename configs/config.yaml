@@ -1,0 +1,33 @@
+paths:
+  format1_behavior: data/raw/data_format1/user_log_format1.csv   # user_id,item_id,cat_id,merchant_id,brand_id,time_tamp,action_type
+  format1_profile:  data/raw/data_format1/user_info_format1.csv   # user_id,age_range,gender
+  format2_train:    data/raw/data_format1/train_format1.csv          # user_id,merchant_id,label
+  format2_test:     data/raw/data_format2/test.csv           # user_id,merchant_id
+  interim_dir:      data/interim
+  model_dir:        models
+  output_pred:      outputs/prediction.csv
+
+params:
+  cutoff_day: 1111          # 双十一，mmdd 数字
+  seq_len: 100
+  windows: [7, 14, 30, 60, 180]
+  random_state: 2025
+  lgbm:
+    num_leaves: 64
+    learning_rate: 0.05
+    n_estimators: 2000
+    feature_fraction: 0.8
+    bagging_fraction: 0.8
+    bagging_freq: 1
+    min_data_in_leaf: 100
+    lambda_l1: 1.0
+    lambda_l2: 5.0
+    objective: binary
+    metrics: [auc, binary_logloss]
+  din:
+    d_model: 48
+    dropout: 0.2
+    epochs: 3
+    batch_size: 2048
+    lr: 0.001
+  blend_weight_lgbm: 0.6    # p = w*p_lgbm + (1-w)*p_din
